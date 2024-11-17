@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}html,body{
+    height: 100%;
+    width: 100%;
+
+}.main{
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+    font-family: Cambria;
+  
+}h1{
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 30%;
+    font-family: Cambria;
+ 
+}.content{
+    height: 70%;
+    width: 70%;
+    background: linear-gradient(to right,lightblue,rgb(218, 206, 208),rgb(183, 111, 123));
+    display: flex;
+    gap: 15%;
+    position: absolute;
+    top: 5%;
+    left: 15%;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px black;
+  
+}
+h2{
+    font-size: 200%;
+    padding-left: 5%;
+
+}
+ul{
+    width: 50%;height: 15%;
+    list-style-type: none;
+     display: flex;
+    gap: 10%;
+    padding-top: 2%;
+    font-size: 100%;
+    font-weight: 700;
+    margin-left: 5%;
+}.img{
+    height: 70%;
+    width: 80%;
+    background-color: rgb(150, 88, 88);
+    position: absolute;
+    top: 15%;
+    left: 10%;
+  animation: change 20s linear infinite forwards;
+}.footer{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    /* font-size:15px; */
+    gap: 15%;
+    
+}
+
+
+@keyframes change{
+    0%{
+      background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/hd/16b39f94905625.5edd332826fe8.jpg);
+    }
+  50%{ background-image: url(https://www.beyoung.in/api/cache/catalog/products/banner_desktop/Women-clothing-banner-mobile-view_28_07_2023_767x430.jpg);}
+    100%{background-image: url(https://mercury.akamaized.net/i/9bd5f46567b15f636a649a355239aeef_287891_0.jpg);
+    }
+    
+}
+    button{
+      
+    position: absolute;
+    top: 102%;
+    left: 40%;
+    font-size: 150%;
+    font-weight: 900;
+ background-color: transparent;
+ border: none;
+
+
+ 
+
+}.page{
+    display: flex;
+    gap: 25%;
+    padding-top:38%;
+    font-size: 20px;
+    padding-left: 7%;
+ 
+}.page>h3>i{
+font-size: 25px;
+color: rgb(6, 48, 107);
+
+}
